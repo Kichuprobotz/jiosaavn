@@ -28,7 +28,7 @@ async def start_handler(cient: Bot, message: Message|CallbackQuery):
         InlineKeyboardButton('Help 💡', callback_data='help'),
         InlineKeyboardButton('Settings ⚙', callback_data='settings')
         ],[
-        InlineKeyboardButton('Open Source Repository 🌐', url='https://github.com/Ns-AnoNymouS/jiosaavn')
+        InlineKeyboardButton('Support Channel 🌐', url='https://t.me/Dramaship')
     ]]
     if isinstance(message, Message):
         await message.reply_text(text, reply_markup=InlineKeyboardMarkup(buttons), quote=True)
