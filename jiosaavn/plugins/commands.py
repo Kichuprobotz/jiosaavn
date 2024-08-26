@@ -22,7 +22,7 @@ async def start_handler(cient: Bot, message: Message|CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('My Father 🧑', url='https://t.me/Ns_AnoNymous'),
+        InlineKeyboardButton('My Father 🧑', url='https://t.me/Kichuxd'),
         InlineKeyboardButton('About 📕', callback_data='about')
         ],[
         InlineKeyboardButton('Help 💡', callback_data='help'),
@@ -68,9 +68,9 @@ async def about(client: Bot, message: Message|CallbackQuery):
         f"**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [Anonymous](https://t.me/Ns_AnoNymouS)\n\n"
-        "**📢 Updates Channel:** [NS Bots](https://t.me/NsBotsOfficial)\n\n"
-        "**👥 Support Group:** [AMC Support](https://t.me/amcDevSupport)\n\n"
+        "**👨‍💻 Developer:** [Anonymous](https://t.me/kichuxd)\n\n"
+        "**📢 Updates Channel:** [DramaShip](https://t.me/Dramaship)\n\n"
+        "**👥 Support Group:** [DramaShip](https://t.me/Dramaship)\n\n"
         "**🔗 Source Code:** [GitHub Repository](https://github.com/Ns-AnoNymouS/jiosaavn)\n\n"
     )
 
